@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./bg/maxresdefault.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.login-button {
+    padding: 20px 40px;
+    border-radius: 30px;
+    background: rgb(212, 30, 204);
+    background: linear-gradient(188deg, rgba(212, 30, 204, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+}
+.register-button{
+    padding: 20px 55px;
+    border-radius: 30px;
+    background: rgb(212, 30, 204);
+    background: linear-gradient(188deg, rgba(212, 30, 204, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+
+/* .login-button:hover {
+    text-decoration: underline;
+} */
